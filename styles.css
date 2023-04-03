@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    overflow: hidden;
+    background-image: url(images/5ce05e42fd984649cba8ff13d2697d82.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#quote-section{
+    width: 410px;
+    height: 209px;
+    margin: 5px auto;
+    padding: 20px;
+    border: 1px white solid;
+    background-color: rgba(0, 0, 0, 0.541);
+
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+
+p{
+    color: white;
+    font-size: 1.2rem;
+}
+
+button{
+    margin: 5px;
+    width: 150px;
+    height: 30px;
+    color: black;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover,
+button:active{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.836);
+}
